@@ -22,33 +22,7 @@ Additionally, the project includes example Python CGI scripts for handling dynam
   Supports directory listings (autoindex) when enabled and provides file upload functionality via multipart/form-data.
 
 - **Error Handling and Redirects:**  
-  Configurable error pages and support for HTTP redirects.
-
-## Project Structure
-
-```
-Webserv/
-├── include/                  # Header files for classes like Server, Client, Config, etc.
-├── src/                      # C++ source files:
-│   ├── Config.cpp
-│   ├── CGI.cpp
-│   ├── Client.cpp
-│   ├── EventPoll.cpp
-│   ├── HttpRequest.cpp
-│   ├── HttpResponse.cpp
-│   ├── Location.cpp
-│   ├── Server.cpp
-│   ├── start.cpp             # Entry point of the application
-│   └── utils.cpp
-├── configs/                  # Configuration files (e.g., default.conf)
-├── cgi-bin/                  # CGI scripts written in Python:
-│   ├── hello.py
-│   ├── post.py
-│   └── get.py
-├── www/                      # Static HTML files and assets:
-│   └── index.html
-└── README.md                 # Project documentation
-```               
+  Configurable error pages and support for HTTP redirects.           
 
 ## Installation
 
