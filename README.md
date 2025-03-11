@@ -1,3 +1,8 @@
+## ✨Team✨
+
+- [akrepkov](https://github.com/akrepkov)
+- [elenavoronin](https://github.com/elenavoronin)
+
 # Webserv
 
 **Webserv** is a lightweight, event-driven web server written in C++ that supports HTTP/1.1 methods (GET, POST, DELETE) along with CGI integration for dynamic content. 
